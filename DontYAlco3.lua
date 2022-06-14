@@ -1,7 +1,6 @@
 --locals
 local currentstage = 0
 local keys = {
-    "memzkey:vIs%cB~kaB8_Hm|",
     "tabbykey:EkRMZ5uK1u",
     "prxkey:vIs%cB~kaB8_Hm|",
     "frankkey:Z^Wvq4F,>+STwf}",
@@ -14,19 +13,16 @@ local hwid = Req.Headers['syn-fingerprint']
 
 local hwids = {
     "26080ce4cc49e2ea5376c4f363543d292f010ffb51b44749d96480b092426265ae6644c1a1bbf34dcc1155a4da7a996a04ae48a8429b4d46fc43859b3c76f23a", -- tabby
-    "7807f54122c737f9fc05bc7645f43a5ab3641126fe3dbc52a17aa00d8b63824e72a8d89667d1d81e2dc39fa1739304a21d7d5029ab599182f72ce28977551637", -- memz
     "1afe87cde438aa0972d53cd39d648c9c1ef29145ebea512027adb60623e4f2320deb7be5bc2f5ea0db540481b34ee2ce50a70a6805c6edc316c50a38bb5c74f6", -- prx
 }
 
 local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 local ips = {
-    "49.36.180.91", -- m o o n
     "68.203.195.91", -- tabby
     "71.105.161.8", -- prx
 }
 
 local discordids = {
-    "879626097669595176",   -- m o o n
     "971712389609299968",   -- tabby
     "631976477621092363",   -- prx
 }
